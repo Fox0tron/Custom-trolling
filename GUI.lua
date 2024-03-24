@@ -1097,7 +1097,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				DropdownConfig.Save = DropdownConfig.Save or false
 
 				local Dropdown = {Value = DropdownConfig.Default, Options = DropdownConfig.Options, Buttons = {}, Toggled = false, Type = "Dropdown", Save = DropdownConfig.Save}
-				local MaxElements = 10
+				local MaxElements = 9
 
 				if not table.find(Dropdown.Options, Dropdown.Value) then
 					Dropdown.Value = "..."
