@@ -9,7 +9,7 @@ if game.PlaceId ~= 13864667823 then
 			Name = "Foxy's owning GUI",
 			HidePremium = false,
 			SaveConfig = true,
-			ConfigFolder = "OrionTest",
+			ConfigFolder = "FoxGUI",
 			IntroText = "Loading Destruction..."
 		})
 		local Tab = Window:MakeTab({
@@ -47,7 +47,7 @@ else
 	Part.Transparency = 1
 
 	-- Locals
-	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/OrionLibKeybind.lua')))()
+	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Fox0tron/Custom-trolling/main/GUI.lua')))()
 	local Events = game:GetService("ReplicatedStorage"):WaitForChild("Events")
 	local SelectedItem = "Med Kit"
 	local Damange = 5
@@ -408,7 +408,7 @@ else
 			Name = "Foxy's owning GUI",
 		HidePremium = false,
 		SaveConfig = false,
-		ConfigFolder = "OrionTest",
+		ConfigFolder = "FoxGUI",
 			IntroText = "Loading Destruction..."
 	})
 
