@@ -36,7 +36,7 @@ if game.PlaceId ~= 13864667823 then
 			end
 		end
 	else
-		game:GetService("Players").LocalPlayer:Kick("Error! Game Not Supported!")
+		game:GetService("Players").LocalPlayer:Kick("Join the game first.")
 	end
 else
     	-- Floating Part
