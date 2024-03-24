@@ -1178,7 +1178,7 @@ function OrionLib:MakeWindow(WindowConfig)
 							Size = UDim2.new(1, 0, 0, 28),
 							BackgroundTransparency = 1,
 							ClipsDescendants = true
-						}), "Divider")
+						}), "Foxotronic")
 
 						AddConnection(OptionBtn.MouseButton1Click, function()
 							Dropdown:Set(Option)
