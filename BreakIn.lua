@@ -4,7 +4,7 @@ if game.PlaceId ~= 13864667823 then
 	if game.PlaceId == 14775231477 or game.PlaceId == 13864661000 then
 		
 	-- Free Gamepasses (LOBBY)
-		local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/OrionLibKeybind.lua')))()
+		local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Fox0tron/Custom-trolling/main/GUI.lua')))()
 		local Window = OrionLib:MakeWindow({
 			Name = "Foxy's owning GUI",
 			HidePremium = false,
