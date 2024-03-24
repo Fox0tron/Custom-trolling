@@ -14,7 +14,7 @@ if game.PlaceId ~= 13864667823 then
 		})
 		local Tab = Window:MakeTab({
 			Name = "Free Gamepasses",
-			Icon = "rbxassetid://4483345998",
+			Icon = "rbxassetid://7734000129",
 			PremiumOnly = false
 		})
 		Tab:AddButton({
@@ -414,7 +414,7 @@ else
 
 	local Tab = Window:MakeTab({
 		Name = "Destruction",
-		Icon = "rbxassetid://4483345998",
+		Icon = "rbxassetid://7734059095",
 		PremiumOnly = false
 	})
 	
@@ -681,7 +681,7 @@ else
 	
 	local Tab = Window:MakeTab({
 		Name = "Player",
-		Icon = "rbxassetid://4483345998",
+		Icon = "rbxassetid://7734000129",
 		PremiumOnly = false
 	})
 
@@ -802,7 +802,7 @@ else
 
 	local Tab = Window:MakeTab({
 		Name = "Combat",
-		Icon = "rbxassetid://4483345998",
+		Icon = "rbxassetid://7734000129",
 		PremiumOnly = false
 	})
 
@@ -881,7 +881,7 @@ else
 
 	local Tab = Window:MakeTab({
 		Name = "Visual/Misc",
-		Icon = "rbxassetid://4483345998",
+		Icon = "rbxassetid://7734000129",
 		PremiumOnly = false
 	})
    
@@ -983,7 +983,7 @@ else
   
     	local Tab = Window:MakeTab({
 		Name = "Items/Heals",
-		Icon = "rbxassetid://4483345998",
+		Icon = "rbxassetid://7734000129",
 		PremiumOnly = false
 	})
 
@@ -997,7 +997,7 @@ else
 		Options = ItemsTable,
 		Callback = function(Value)
 			if Value == 'Book' or Value == 'Phone' then
-				Notify('Warning', Value .. " Wont Work Unless You Own The Corresponding Gamepass.", 'rbxassetid://4483345998', 7)
+				Notify('Warning', Value .. " Will not work unless you own the gamepass.", 'rbxassetid://4483345998', 7)
 			end
 			SelectedItem = Value
 		end
@@ -1097,7 +1097,7 @@ else
 
   	local Tab = Window:MakeTab({
 		Name = "Teleports",
-		Icon = "rbxassetid://4483345998",
+		Icon = "rbxassetid://7734000129",
 		PremiumOnly = false
 	})
 
