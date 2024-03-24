@@ -1806,6 +1806,13 @@ else
 			end
 		end    
 	})
+		
+			Tab:AddButton({
+		Name = "Unlock Secret Ending",
+		Callback = function()
+			GetSecretEnding()
+		end
+	})
 
   	local Tab = Window:MakeTab({
 		Name = "Items/Heals",
@@ -1919,17 +1926,6 @@ else
 				["placement"] = Position
 			})
 		end    
-	})
-
-	local Section = Tab:AddSection({
-		Name = "Others"
-	})
-
-	Tab:AddButton({
-		Name = "Unlock Secret Ending",
-		Callback = function()
-			GetSecretEnding()
-		end
 	})
 
   	local Tab = Window:MakeTab({
