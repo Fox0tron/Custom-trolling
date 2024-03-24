@@ -1246,7 +1246,7 @@ else
 		end
 	})
 
-	Notify("Foxy's custom break in GUI")
+	Notify("Foxy's custom break in GUI", "Enjoy your new powers.")
 	ScriptLoaded = true
 	OrionLib:Init()
 end
