@@ -651,14 +651,14 @@ function OrionLib:MakeWindow(WindowConfig)
 		UIHidden = true
 		OrionLib:MakeNotification({
 			Name = "Interface Hidden",
-			Content = "Tap V to reopen the interface",
+			Content = "Tap LeftAlt to reopen the interface",
 			Time = 5
 		})
 		WindowConfig.CloseCallback()
 	end)
 
 	AddConnection(UserInputService.InputBegan, function(Input)
-		if Input.KeyCode == Enum.KeyCode.V and UIHidden then
+		if Input.KeyCode == Enum.KeyCode.LeftAlt and UIHidden then
 			MainWindow.Visible = true
 		end
 	end)
