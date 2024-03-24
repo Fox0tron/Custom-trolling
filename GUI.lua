@@ -13,7 +13,8 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(195, 130, 9),
+			Main = Color3.fromRGB(0, 0, 0),
+			Foxotronic = Color3.fromRGB(195, 130, 9),
 			Second = Color3.fromRGB(0, 0, 0),
 			Stroke = Color3.fromRGB(41, 41, 41),
 			Divider = Color3.fromRGB(60, 60, 60),
@@ -633,7 +634,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		}),
 		DragPoint,
 		WindowStuff
-	}), "Main")
+	}), "Foxotronic")
 
 	if WindowConfig.ShowIcon then
 		WindowName.Position = UDim2.new(0, 50, 0, -24)
