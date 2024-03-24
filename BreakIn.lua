@@ -461,7 +461,7 @@ else
 						})
 					end
 				end
-				task.wait(.001)
+				task.wait(.1)
 			end
 		end    
 	})
