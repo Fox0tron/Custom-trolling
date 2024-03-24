@@ -14,7 +14,6 @@ local OrionLib = {
 	Themes = {
 		Default = {
 			Main = Color3.fromRGB(0, 0, 0),
-			Foxotronic = Color3.fromRGB(195, 130, 9),
 			Second = Color3.fromRGB(0, 0, 0),
 			Stroke = Color3.fromRGB(41, 41, 41),
 			Divider = Color3.fromRGB(60, 60, 60),
@@ -498,7 +497,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	}), {
 		MakeElement("List"),
 		MakeElement("Padding", 8, 0, 0, 8)
-	}), "Foxotronic")
+	}), "Divider")
 
 	AddConnection(TabHolder.UIListLayout:GetPropertyChangedSignal("AbsoluteContentSize"), function()
 		TabHolder.CanvasSize = UDim2.new(0, 0, 0, TabHolder.UIListLayout.AbsoluteContentSize.Y + 16)
@@ -762,7 +761,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		}), {
 			MakeElement("List", 0, 6),
 			MakeElement("Padding", 15, 10, 10, 15)
-		}), "Divider")
+		}), "Foxotronic")
 
 		AddConnection(Container.UIListLayout:GetPropertyChangedSignal("AbsoluteContentSize"), function()
 			Container.CanvasSize = UDim2.new(0, 0, 0, Container.UIListLayout.AbsoluteContentSize.Y + 30)
