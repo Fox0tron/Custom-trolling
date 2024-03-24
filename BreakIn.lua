@@ -694,7 +694,7 @@ else
 		Min = 0,
 		Max = 500,
 		Default = 50,
-		Color = Color3.fromRGB(0, 255, 0),
+		Color = Color3.fromRGB(255, 170, 0),
 		Increment = 1,
 		ValueName = "Speed",
 		Callback = function(Value)
@@ -707,7 +707,7 @@ else
 		Min = 0,
 		Max = 500,
 		Default = 100,
-		Color = Color3.fromRGB(0, 255, 0),
+		Color = Color3.fromRGB(255, 170, 0),
 		Increment = 1,
 		ValueName = "Power",
 		Callback = function(Value)
@@ -770,7 +770,7 @@ else
 		Min = 0,
 		Max = 200,
 		Default = 5,
-		Color = Color3.fromRGB(0, 255, 0),
+		Color = Color3.fromRGB(255, 170, 0),
 		Increment = 1,
 		ValueName = "Damange",
 		Callback = function(Value)
@@ -943,10 +943,10 @@ else
 				for i, v in pairs(game:GetService("Workspace").Hidden:GetChildren()) do
 					local highlight = Instance.new("Highlight")
 					highlight.Parent = v
-					highlight.FillColor = Color3.fromRGB(255, 0, 255)
+					highlight.FillColor = Color3.fromRGB(255, 170, 0)
 					highlight.FillTransparency = 0
 					highlight.OutlineTransparency = 0
-					highlight.OutlineColor = Color3.fromRGB(0, 0, 255)
+					highlight.OutlineColor = Color3.fromRGB(255, 210, 97)
 				end
 			else
 				for i, v in pairs(game:GetService("Workspace").Hidden:GetChildren()) do
@@ -1067,7 +1067,7 @@ else
 		Min = 0,
 		Max = 4,
 		Default = 1,
-		Color = Color3.fromRGB(0, 255, 0),
+		Color = Color3.fromRGB(255, 170, 0),
 		Increment = 1,
 		ValueName = "",
 		Callback = function(Value)
