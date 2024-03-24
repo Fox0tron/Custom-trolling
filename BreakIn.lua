@@ -511,7 +511,7 @@ else
 
 	Tab:AddTextbox({
 		Name = "Delete Player's Limbs",
-		Default = "PlayerName",
+		Default = "",
 		TextDisappear = false,
 		Callback = function(Value)
 			Delete(game:GetService("Workspace"):FindFirstChild(tostring(Value)).LeftHand)
@@ -531,7 +531,7 @@ else
 
 	Tab:AddTextbox({
 		Name = "Freeze Player",
-		Default = "PlayerName",
+		Default = "",
 		TextDisappear = false,
 		Callback = function(Value)
 			pcall(function()
@@ -542,7 +542,7 @@ else
 
 	Tab:AddTextbox({
 		Name = "Kill Player",
-		Default = "PlayerName",
+		Default = "",
 		TextDisappear = false,
 		Callback = function(Value)
 			pcall(function()
@@ -554,7 +554,7 @@ else
 
   	Tab:AddTextbox({
 		Name = "Remove torso",
-		Default = "PlayerName",
+		Default = "",
 		TextDisappear = false,
 		Callback = function(Value)
 			pcall(function()
@@ -565,7 +565,7 @@ else
 
     	Tab:AddTextbox({
 		Name = "Remove Humanoid",
-		Default = "PlayerName",
+		Default = "",
 		TextDisappear = false,
 		Callback = function(Value)
 			pcall(function()
@@ -576,7 +576,7 @@ else
 
       	Tab:AddTextbox({
 		Name = "Remove HumanoidRoot",
-		Default = "PlayerName",
+		Default = "",
 		TextDisappear = false,
 		Callback = function(Value)
 			pcall(function()
