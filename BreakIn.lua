@@ -694,7 +694,7 @@ else
 		Min = 0,
 		Max = 500,
 		Default = 50,
-		Color = Color3.fromRGB(0, 255, 0),
+		Color = Color3.fromRGB(195, 130, 9),
 		Increment = 1,
 		ValueName = "Speed",
 		Callback = function(Value)
@@ -707,7 +707,7 @@ else
 		Min = 0,
 		Max = 500,
 		Default = 100,
-		Color = Color3.fromRGB(0, 255, 0),
+		Color = Color3.fromRGB(195, 130, 9),
 		Increment = 1,
 		ValueName = "Power",
 		Callback = function(Value)
