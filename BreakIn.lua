@@ -106,34 +106,34 @@ else
 	}
 
 	local ItemsTable = {
+			local ItemsTable = {
+		"Lollipop",
+		"Armor",
+		"Bat",
+		"Apple",
+		"Bloxy Cola",
+		"Chips",
+		"Cookie",
+		"Golden Apple",
+		"Gold Pizza",
+		"Pizza",
+		"Rainbow Pizza",
+		"Rainbow Pizza Box",
 		"Crowbar 1",
 		"Crowbar 2",
-		"Bat",
-		"Pitchfork",
 		"Hammer",
+		"Pitchfork",
 		"Wrench",
-		"Broom",
-		"Armor",
-		"Med Kit",
+		"Battery",
+		"Bottle",
+		"Ladder",
+		"Book",
 		"Key",
 		"Gold Key",
 		"Louise",
-		"Lollipop",
-		"Chips",
-		"Golden Apple",
-		"Pizza",
-		"Gold Pizza",
-		"Rainbow Pizza",
-		"Rainbow Pizza Box",
-		"Book",
-		"Phone",
-		"Cookie",
-		"Apple",
-		"Bloxy Cola",
-		"Expired Bloxy Cola",
-		"Bottle",
-		"Ladder",
-		"Battery"
+		"Med Kit",
+		"Phone"
+	}
 	}
 
 	-- Functions
