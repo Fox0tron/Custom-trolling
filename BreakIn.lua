@@ -993,7 +993,7 @@ else
 
 	Tab:AddDropdown({
 		Name = "Item",
-		Default = "Med Kit",
+		Default = "Lollipop",
 		Options = ItemsTable,
 		Callback = function(Value)
 			if Value == 'Book' or Value == 'Phone' then
