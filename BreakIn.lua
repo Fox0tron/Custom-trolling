@@ -134,7 +134,6 @@ else
 		"Med Kit",
 		"Phone"
 	}
-	}
 
 	-- Functions
 	local function Notify(name, content, image, time)
